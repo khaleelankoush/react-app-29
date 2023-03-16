@@ -40,6 +40,7 @@ const router = createBrowserRouter([
             ),
             loader: (meta) =>
               import("./pages/Post").then((module) => module.loader(meta)),
+              /////////////
           },
         ],
       },
